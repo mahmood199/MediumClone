@@ -1,13 +1,13 @@
-package com.example.api.models
+package com.example.api.models.Entities
 
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class Profile(
+data class Author(
     @Json(name = "bio")
-    val bio: String,
+    val bio: String?,
     @Json(name = "following")
     val following: Boolean,
     @Json(name = "image")

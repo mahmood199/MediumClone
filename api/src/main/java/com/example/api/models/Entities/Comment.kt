@@ -1,6 +1,7 @@
-package com.example.api.models
+package com.example.api.models.Entities
 
 
+import com.example.api.models.Entities.Author
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
