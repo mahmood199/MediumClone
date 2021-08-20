@@ -3,12 +3,12 @@ package com.example.api.services
 import com.example.api.models.Entities.Article
 import com.example.api.models.Entities.Profile
 import com.example.api.models.Entities.User
-import com.example.api.models.Entities.UserRegister
 import com.example.api.models.Response.MultipleCommentsResponse
 import com.example.api.models.Request.Comment
-import com.example.api.models.Request.CreatePostArticle
+import com.example.api.models.Request.CreatePost.CreatePostArticle
+import com.example.api.models.Request.LoginUser.LoginUserRequest
+import com.example.api.models.Request.RegisterUser.RegisterUserRequest
 import com.example.api.models.Response.ArticlesResponse
-import com.example.api.models.Request.UserLoginRequest
 import com.example.api.models.Response.MultipleArticleResponse
 import com.example.api.models.Response.TagListResponse
 import retrofit2.Response
@@ -19,13 +19,14 @@ interface ConduitAPI {
     @GET("articles")
     suspend fun getArticles(): Response<ArticlesResponse>
 
+    //
 
     @POST("users/login")
-    suspend fun loginUser(@Body user : UserLoginRequest) : Response<User>
+    suspend fun loginUser(@Body loginUserRequest: LoginUserRequest) : Response<User>
 
 
     @POST("users")
-    suspend fun registerUser(@Body userRegister: UserRegister) : Response<User>
+    suspend fun registerUser(@Body registerUserRequest: RegisterUserRequest) : Response<User>
 
 
     @GET("user")
@@ -44,7 +45,7 @@ interface ConduitAPI {
     suspend fun followUser(@Path("username") username : String) : Response<Profile>
 
 
-    @DELETE("profiles/:username/follow")
+    @DELETE("profiles/:{username}/follow")
     suspend fun unfollowUser(@Path("username") username : String) : Response<Profile>
 
 
@@ -61,10 +62,10 @@ interface ConduitAPI {
 
 
     @POST("articles")
-    suspend fun createPost(@Body createPostArticle: CreatePostArticle) : Response<Article>
+    suspend fun createArticle(@Body createPostArticle: CreatePostArticle) : Response<Article>
 
 
-    @POST("articles/:{slug}")
+    @PUT("articles/:{slug}")
     suspend fun updateArticle(@Body createPostArticle: CreatePostArticle) : Response<Article>
 
 

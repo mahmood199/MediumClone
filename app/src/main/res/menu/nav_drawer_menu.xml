@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/first_menu"
+            android:icon="@drawable/star"
+            android:title="First Menu" />
+
+        <item
+            android:id="@+id/second_menu"
+            android:icon="@drawable/star"
+            android:title="Second Menu" />
+
+        <item
+            android:id="@+id/third_menu"
+            android:icon="@drawable/star"
+            android:title="Third Menu" />
+    </group>
+
+
+    <item android:title="Test">
+        <menu>
+            <item
+                android:id="@+id/fourth_menu"
+                android:icon="@drawable/star"
+                android:title="Fourth Menu" />
+
+            <item
+                android:id="@+id/fifth_menu"
+                android:icon="@drawable/star"
+                android:title="Fifth Menu" />
+        </menu>
+    </item>
+
+</menu>
