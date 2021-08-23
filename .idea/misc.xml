@@ -3,8 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/drawable/bookmark_add.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/drawable/circular_corner_rectangle.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/drawable/more.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/drawable/notifications.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/activity_following_and_followers.xml" value="0.26197916666666665" />
         <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/activity_main.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/activity_splash_activty.xml" value="0.25794871794871793" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/bar_layout.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/bar_layout_2.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/fragment_bookmark.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/fragment_explore.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/fragment_following.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/fragment_intro1.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/fragment_profile.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/fragment_search.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/item_searched.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/item_single_blog_recyclerview.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/item_single_follow.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/item_single_tag.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/layout/nav_header.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/Kamran/Desktop/MediumClone/app/src/main/res/menu/nav_drawer_menu.xml" value="0.2755208333333333" />
       </map>
     </option>
